@@ -1,5 +1,7 @@
 def primes(n):
     '''Return primes less than n'''
+    # https://www.geeksforgeeks.org/python-program-for-sieve-of-eratosthenes/
+    # Sieve of Eratosthenes
     if n < 1:
         return []
     # Create a boolean array "prime[0..n]" and initialize
